@@ -12,8 +12,9 @@ function getUrlParameter(sParam) {
       // scrub out trailing slashes which are sometimes inserted
       if (sParameterName[1][sParameterName[1].length - 1] == "/") sParameterName[1] = sParameterName[1].substr(0, sParameterName[1].length - 1); 
       return sParameterName[1];
-    } else return false;
+    }
   }
+  return false;
 }
 
 
